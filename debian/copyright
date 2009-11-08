@@ -1,0 +1,15 @@
+
+This is the Debian GNU/Linux package of aprsdigi. aprsdigi was written
+by Alan Crosswell N2YGK <n2ygk@weca.org>. Original sources were obtained
+from
+  http://www.cloud9.net/~alan/ham/aprs/
+
+aprsdigi is Copyright (c) 1996,1997,1999 Alan Crosswell, n2ygk@weca.org.
+
+This package was created by Hamish Moffatt <hamish@debian.org>.
+Some source changes were made for use with the current version
+of the libax25 library.
+
+aprsdigi is licensed under the GPL (GNU General Public License).
+See /usr/share/common-licenses/GPL for the full text of this license.
+

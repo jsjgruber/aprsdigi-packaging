@@ -1,0 +1,56 @@
+aprsdigi (2.4.4-3.1) unstable; urgency=low
+
+  * Retiring - remove myself from the uploaders list.
+
+ -- Joop Stakenborg <pa3aba@debian.org>  Sun, 08 Nov 2009 18:41:56 +0000
+
+aprsdigi (2.4.4-3) unstable; urgency=low
+
+  * Fix new logic error in debian/rules clean target
+
+ -- Hamish Moffatt <hamish@debian.org>  Thu, 18 Oct 2007 23:56:02 +1000
+
+aprsdigi (2.4.4-2) unstable; urgency=low
+
+  * Donate package to debian-hams team.
+  * General cleanup.
+
+ -- Hamish Moffatt <hamish@debian.org>  Thu, 18 Oct 2007 23:45:07 +1000
+
+aprsdigi (2.4.4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Hamish Moffatt <hamish@debian.org>  Sat, 20 Aug 2005 01:19:14 +1000
+
+aprsdigi (2.0-0pre3.5) unstable; urgency=low
+
+  * Upgrade to debhelper 4 and rebuild to remove /usr/doc cruft
+  * Add copyright statement in debian/copyright (closes: #302935)
+
+ -- Hamish Moffatt <hamish@debian.org>  Tue, 16 Aug 2005 07:55:16 +1000
+
+aprsdigi (2.0-0pre3.4) unstable; urgency=low
+
+  * Updated sources for latest changes to libax25-dev
+
+ -- Hamish Moffatt <hamish@debian.org>  Wed, 19 Sep 2001 00:22:43 +1000
+
+aprsdigi (2.0-0pre3.3) unstable; urgency=low
+
+  * Recompiled with correct version of libax25 (closes: #74183)
+
+ -- Hamish Moffatt <hamish@debian.org>  Sat,  7 Oct 2000 11:52:27 +1100
+
+aprsdigi (2.0-0pre3.2) unstable; urgency=low
+
+  * Updated copyright file to include upstream author information
+
+ -- Hamish Moffatt <hamish@debian.org>  Sun, 16 Apr 2000 22:27:40 +1000
+
+aprsdigi (2.0-0pre3.1) unstable; urgency=low
+
+  * Initial upload
+
+ -- Hamish Moffatt <hamish@debian.org>  Thu, 13 Apr 2000 21:42:00 +1000
+
