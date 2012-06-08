@@ -61,11 +61,7 @@
 #include <time.h>
 #include <signal.h>
 
-#include <netax25/kernel_ax25.h>
-#include <netax25/kernel_rose.h>
-#include <netax25/ax25.h>
-#include <netax25/axlib.h>
-#include <netax25/axconfig.h>
+#include <linux/ax25.h>
 
 #ifndef HAVE_LIBAX25_EXTENSIONS
 #include "libax25ext.h"
