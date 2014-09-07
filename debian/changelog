@@ -1,3 +1,16 @@
+aprsdigi (3.5.1-1) unstable; urgency=medium
+
+  * New Upstream Version.
+  * Bump Standards Version.
+  * Ack the NMU.
+  * Add debian/watch, thanks bartm.
+  * Add man2html-base to build depends
+  * Fix aprsd title strings, patch from Iain <g7iii@g7iii.net>
+    (Closes: #360344)
+  * Minor man page corrections.
+
+ -- Colin Tuckley <colint@debian.org>  Sun, 07 Sep 2014 11:54:21 +0100
+
 aprsdigi (2.4.4-3.2) unstable; urgency=low
 
   * Non-maintainer upload.

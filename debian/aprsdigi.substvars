@@ -1,1 +1,0 @@
-shlibs:Depends=libax25 (>= 0.0.11), libc6 (>= 2.6.1-1)

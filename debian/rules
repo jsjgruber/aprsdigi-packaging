@@ -1,6 +1,9 @@
 #!/usr/bin/make -f
 
-build:
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
+build-stamp:
 	dh_testdir
 	./configure --prefix=/usr
 	$(MAKE)
@@ -12,6 +15,8 @@ clean:
 	[ ! -f Makefile ] || $(MAKE) distclean
 	-rm -f `find . -name "*~"`
 	-rm -rf debian/aprsdigi debian/files* core debian/substvars
+	-rm -rf debian/aprsdigi.substvars *.html
+	dh_clean
 
 binary-indep:	build
 	dh_testdir
@@ -25,7 +30,6 @@ binary-arch:	build
 	dh_clean
 	dh_installdirs
 	$(MAKE) install DESTDIR=`pwd`/debian/aprsdigi/
-	mv debian/aprsdigi/usr/man debian/aprsdigi/usr/share
 
 	dh_installdocs README AUTHORS TODO NEWS
 	dh_installman aprsdigi.8 aprsmon.8
@@ -33,10 +37,10 @@ binary-arch:	build
 	dh_strip
 	dh_compress
 	dh_fixperms
+	dh_makeshlibs
 	dh_installdeb
 	dh_shlibdeps
 	dh_gencontrol
-	dh_makeshlibs
 	dh_md5sums
 	dh_builddeb
 

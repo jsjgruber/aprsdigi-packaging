@@ -44,7 +44,9 @@
 #include <ctype.h>
 #include <time.h>
 
+#include <netax25/ax25.h>
 
+#include <netax25/axconfig.h>
 #include "aprsshm.h"
 
 #define MAXPPM 10

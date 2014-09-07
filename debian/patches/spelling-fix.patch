@@ -1,0 +1,22 @@
+Fix spelling errors
+Author Colin colint@debian.org
+--- a/aprsdigi.c
++++ b/aprsdigi.c
+@@ -1697,7 +1697,7 @@
+   fprintf(stderr," -0 | --no3rdparty   -- perform transparent tunneling (default)\n");
+   fprintf(stderr," -o r (R) | --[no]rx           -- do (not) mark interface receive-only\n");
+   fprintf(stderr," -o t (T) | --[no]tx           -- do (not) mark interface transmit-only\n");
+-  fprintf(stderr," -o s (S) | --[no]txsame       -- do (not) supress retransmission on RX intf.\n");
++  fprintf(stderr," -o s (S) | --[no]txsame       -- do (not) suppress retransmission on RX intf.\n");
+   fprintf(stderr," -i | --idinterval   -- seconds between ID transmissions\n");
+   fprintf(stderr,"             (Use \"-i 0\" to disable IDs)\n");
+   fprintf(stderr," -t | --tag          -- tag text to add to received packets\n");
+@@ -2077,7 +2077,7 @@
+   
+   printf("Linux APRS(tm) digipeater\n%s\n",copyr);
+   printf("Version: aprsdigi %s-%s\n",PACKAGE,VERSION);
+-  printf("This is free software covered under the GNU Public License.\n");
++  printf("This is free software covered under the GNU General Public License.\n");
+   printf("There is no warranty.  See the file COPYING for details.\n\n");
+ 
+   config_print(stdout);

@@ -9,6 +9,7 @@
 
 #include <netax25/ax25.h>
 #include <netrose/rose.h>
+#include <netax25/axlib.h>
 #include "libax25ext.h"
 #include <string.h>
 

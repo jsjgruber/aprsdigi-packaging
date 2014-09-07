@@ -1,6 +1,6 @@
 Summary: AX.25 Automatic Position Reporting System aprsdigi and aprsmon
 Name: aprsdigi
-Version: 3.5.1
+Version: @VERSION@
 Release: 6
 License: GPLv2+
 Group: Applications/Communications

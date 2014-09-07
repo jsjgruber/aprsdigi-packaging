@@ -16,7 +16,9 @@
 #include <time.h>
 #include <signal.h>
 #include <errno.h>
-#include <linux/ax25.h>
+#include <netax25/ax25.h>
+#include <netax25/axlib.h>
+#include <netax25/axconfig.h>
 #ifndef AX25_MTU
 #define AX25_MTU 256
 #endif
