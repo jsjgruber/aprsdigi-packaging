@@ -7,10 +7,12 @@ aprsdigi (3.10.0-1) UNRELEASED; urgency=medium
       * Patrick Ouellette <pouelle@debian.org> (never uploaded)
       * Colin Tuckley <colint@debian.org> (by request)
     - Bumped Standards Version to 3.9.6.
-    - Depend on debhelper (>= 9) from (>= 4)
+    - Build-Depend on debhelper (>= 9) from (>= 4)
     - Update homepage to new GitHub location
     - Add Vcs-* fields for Debian Hams Git repository
     - Add dh-autoreconf as a build dependency
+    - Add groff as a build dependency for the HTML documentation
+    - Extended the package description
   * debian/watch:
     - Updated to use the new GitHub location as project has moved from
       SourceForge
