@@ -9,7 +9,6 @@
 
 #include <netax25/ax25.h>
 #include <netrose/rose.h>
-#include <netax25/axlib.h>
 #include "libax25ext.h"
 #include <string.h>
 
@@ -266,7 +265,7 @@ parse_cooked_ax25(unsigned char **frame, int *len, struct ax_calls *calls)
       break;
   case 99:			/* terminal */
     calls->ax_type = UI;
-    calls->ax_pid == PID_NO_L3;
+    calls->ax_pid = PID_NO_L3;
     if (calls->ax_n_digis == 0)
       calls->ax_from_call.ax25_call[ALEN] |= HDLCAEB;
     else
