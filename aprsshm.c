@@ -44,9 +44,6 @@
 #include <ctype.h>
 #include <time.h>
 
-#include <netax25/ax25.h>
-
-#include <netax25/axconfig.h>
 #include "aprsshm.h"
 
 #define MAXPPM 10
@@ -71,8 +68,8 @@ static struct pktseg *pktseg = NULL;
 static char *infofile = NULL;
 
 /* convert relative ptr to absolute & vice-versa */
-#define RELABS(x) ((struct pkt *)(((unsigned int)(x))+(unsigned int)pktseg))
-#define ABSREL(x) ((struct pkt *)(((unsigned int)(x))-(unsigned int)pktseg))
+#define RELABS(x) ((struct pkt *)(((intptr_t)(x))+(intptr_t)pktseg))
+#define ABSREL(x) ((struct pkt *)(((intptr_t)(x))-(intptr_t)pktseg))
 #define PKTSIZE (sizeof(struct pkt))
 
 int

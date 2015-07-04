@@ -1,8 +1,5 @@
-# Kickstart template for use by cobbler. $Revision: 1.1 $
-# $Log: aprsdigi-fc17.ks,v $
-# Revision 1.1  2012/09/03 21:58:27  n2ygk
-# 3.5.1 release
-#
+# Kickstart template for use by cobbler. $Revision$
+# $Log$
 # Revision 1.2  2012/09/02 18:17:44  alan
 # add base-system to include X, etc. so can run soundmodemconfig
 #
