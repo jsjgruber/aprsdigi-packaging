@@ -1,17 +1,25 @@
 Source: aprsdigi
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org> 
+Uploaders: Iain R. Learmonth <irl@fsfe.org>,
+           Hamish Moffat <hamish@debian.org>
 Section: hamradio
 Priority: optional
-Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org> 
-Uploaders: Jaime Robles <jaime@debian.org>, Patrick Ouellette <pouelle@debian.org>, Hamish Moffatt <hamish@debian.org>, Colin Tuckley <colint@debian.org>
-Standards-Version: 3.9.5
-Build-Depends: libax25-dev, debhelper (>= 4), man2html-base
-Homepage: http://aprsdigi.sourceforge.net/
+Build-Depends: libax25-dev,
+               debhelper (>= 9),
+               man2html-base,
+               dh-autoreconf
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-hamradio/aprsdigi.git
+Vcs-Git: http://anonscm.debian.org/git/pkg-hamradio/aprsdigi.git
+Homepage: https://github.com/n2ygk/aprsdigi/
 
 Package: aprsdigi
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: ax25-tools, xastir, aprsd
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: ax25-tools,
+          xastir,
+          aprsd
 Description: digipeater for APRS
  aprsdigi is a repeater for the Automatic Position Reporting System, APRS.
  It also includes aprsmon, a one-way gateway to APRS on TCP/IP.
-
