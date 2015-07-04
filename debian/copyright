@@ -1,15 +1,32 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: aprsdigi
+Source: https://github.com/n2ygk/aprsdigi/
 
-This is the Debian GNU/Linux package of aprsdigi. aprsdigi was written
-by Alan Crosswell N2YGK <n2ygk@weca.org>. Original sources were obtained
-from
-  http://www.cloud9.net/~alan/ham/aprs/
+Files: *
+Copyright: (C) 1996-1999,2001-2004,2009,2012,2014 Alan Crosswell N2YGK <n2ygk@weca.org>
+License: GPL-2
 
-aprsdigi is Copyright (c) 1996,1997,1999 Alan Crosswell, n2ygk@weca.org.
+Files: debian/*
+Copyright:
+ (C) 2015 Iain R. Learmonth <irl@fsfe.org>
+ (C) 2014 Colin Tuckley <colint@debian.org>
+ (C) 2012 Luk Claes <luk@debian.org>
+ (C) 2000-2007 Hamish Moffatt <hamish@debian.org>
+License: GPL-2
 
-This package was created by Hamish Moffatt <hamish@debian.org>.
-Some source changes were made for use with the current version
-of the libax25 library.
-
-aprsdigi is licensed under the GPL (GNU General Public License).
-See /usr/share/common-licenses/GPL-2 for the full text of this license.
-
+License: GPL-2
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, a copy of the full license text is available in
+ /usr/share/common-licenses/GPL-2.

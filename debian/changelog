@@ -1,14 +1,6 @@
 aprsdigi (3.10.0-1) UNRELEASED; urgency=medium
 
   * New Upstream Version
-  * debian/watch:
-    - Updated to use the new GitHub location as project has moved from
-      SourceForge.
-  * Removed patches now included upstream:
-    - aprsd-title.patch
-    - ax25-includes.patch
-    - man-fix.patch
-    - spelling-fix.patch
   * debian/control:
     - Removed uploaders:
       * Jaime Robles <jaime@debian.org> (never uploaded)
@@ -19,6 +11,14 @@ aprsdigi (3.10.0-1) UNRELEASED; urgency=medium
     - Update homepage to new GitHub location
     - Add Vcs-* fields for Debian Hams Git repository
     - Add dh-autoreconf as a build dependency
+  * debian/watch:
+    - Updated to use the new GitHub location as project has moved from
+      SourceForge
+  * Removed patches now included upstream:
+    - aprsd-title.patch
+    - ax25-includes.patch
+    - man-fix.patch
+    - spelling-fix.patch
   * debian/rules:
     - Switched to compact dh format
   * debian/compat:
@@ -27,6 +27,8 @@ aprsdigi (3.10.0-1) UNRELEASED; urgency=medium
     - Removed unnecessary file
   * debian/docs, debian/manpages:
     - Created new files with file lists from old debian/rules
+  * debian/copyright:
+    - Updated to DEP 5
 
  -- Iain R. Learmonth <irl@fsfe.org>  Sat, 04 Jul 2015 17:32:58 +0100
 
