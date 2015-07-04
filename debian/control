@@ -7,7 +7,8 @@ Priority: optional
 Build-Depends: libax25-dev,
                debhelper (>= 9),
                man2html-base,
-               dh-autoreconf
+               dh-autoreconf,
+               groff
 Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-hamradio/aprsdigi.git
 Vcs-Git: http://anonscm.debian.org/git/pkg-hamradio/aprsdigi.git
