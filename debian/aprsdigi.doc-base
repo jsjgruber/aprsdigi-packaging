@@ -1,0 +1,9 @@
+Document: aprsdigi
+Title: aprsdigi Manual
+Author: Alan Crosswell
+Abstract: Documentation for aprsdigi
+Section: Amateur Radio
+
+Format: HTML
+Index: /usr/share/doc/aprsdigi/aprsdigi.html
+Files: /usr/share/doc/aprsdigi/*.html
