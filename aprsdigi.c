@@ -26,7 +26,9 @@
  * 
  * portions derived from ax25-utils/listen.c
  *
- * Copyright (c) 1996,1997,1999,2001,2002,2003 Alan Crosswell
+ */
+static char copyr[] = "Copyright (c) 1996,1997,1999,2001,2002,2003,2004,2009,2012 Alan Crosswell, n2ygk@weca.org";
+/*
  * Alan Crosswell, N2YGK
  * 144 Washburn Road
  * Briarcliff Manor, NY 10510, USA
@@ -53,8 +55,6 @@
 #include <time.h>
 #include <signal.h>
 #include <errno.h>
-#include <netax25/kernel_ax25.h>
-#include <netax25/kernel_rose.h>
 #include <netax25/ax25.h>
 #include <netax25/axlib.h>
 #include <netax25/axconfig.h>
@@ -70,7 +70,7 @@
 #define PACKAGE "aprsdigi"
 #endif
 #ifndef VERSION
-#define VERSION "$Revision: 1.1.1.1 $";
+#define VERSION "$Revision: 1.3 $";
 #endif
 
 /* some defines that really belong in a header file! */
@@ -1047,7 +1047,7 @@ xmit(struct stuff *s, struct interface_list *dupelist)
 	else
 	  of = fopen(Logfile,"a");
 	print_it(of,&calls,op-(vecl[n]+l->i->taglen),vecl[n]+l->i->taglen);
-	if (of != stdout)
+	if (of != stdout && of != stderr)
 	  fclose(of);
       }
       if (Verbose) {
@@ -1248,7 +1248,7 @@ int sig;
 	    i->stats.tx,i->stats.digi,i->stats.flood,i->stats.ssid,
 	    i->stats.ids);
   }
-  if (of != stdout)
+  if (of != stdout && of != stderr)
     fclose(of);
   if (sig >= 0)
     signal(sig,print_stats);
@@ -2077,7 +2077,7 @@ check_config()
   int n, j;
   struct callsign_list *cl;
   
-  printf("Linux APRS(tm) digipeater\nCopyright (c) 1996,1997,1999,2001,2002,2003,2004 Alan Crosswell, n2ygk@weca.org\n");
+  printf("Linux APRS(tm) digipeater\n%s\n",copyr);
   printf("Version: aprsdigi %s-%s\n",PACKAGE,VERSION);
   printf("This is free software covered under the GNU Public License.\n");
   printf("There is no warranty.  See the file COPYING for details.\n\n");

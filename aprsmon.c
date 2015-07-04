@@ -61,8 +61,6 @@
 #include <time.h>
 #include <signal.h>
 
-#include <netax25/kernel_ax25.h>
-#include <netax25/kernel_rose.h>
 #include <netax25/ax25.h>
 #include <netax25/axlib.h>
 #include <netax25/axconfig.h>
@@ -99,7 +97,7 @@ char *infofile = "/var/ax25/aprsmon.info";
 #endif
 
 #ifndef VERSION
-#define VERSION "$Revision: 1.1.1.1 $"
+#define VERSION "$Revision: 1.2 $"
 #endif
 
 char *title = "Live data from Linux";
