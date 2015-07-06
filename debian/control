@@ -14,7 +14,7 @@ Vcs-Git: http://anonscm.debian.org/git/pkg-hamradio/aprsdigi.git
 Homepage: https://github.com/n2ygk/aprsdigi/
 
 Package: aprsdigi
-Architecture: any
+Architecture: linux-any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
 Suggests: ax25-tools,
