@@ -1,7 +1,6 @@
 Source: aprsdigi
 Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org> 
-Uploaders: Iain R. Learmonth <irl@fsfe.org>,
-           Hamish Moffat <hamish@debian.org>
+Uploaders: Iain R. Learmonth <irl@fsfe.org>
 Section: hamradio
 Priority: optional
 Build-Depends: libax25-dev,

@@ -3,9 +3,10 @@ aprsdigi (3.10.0-1) UNRELEASED; urgency=medium
   * New Upstream Version
   * debian/control:
     - Removed uploaders:
+      * Colin Tuckley <colint@debian.org> (by request)
+      * Hamish Moffat <hamish@debian.org> (by request)
       * Jaime Robles <jaime@debian.org> (never uploaded)
       * Patrick Ouellette <pouelle@debian.org> (never uploaded)
-      * Colin Tuckley <colint@debian.org> (by request)
     - Bumped Standards Version to 3.9.6.
     - Build-Depend on debhelper (>= 9) from (>= 4)
     - Update homepage to new GitHub location
