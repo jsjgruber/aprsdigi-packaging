@@ -1,9 +1,9 @@
-aprsdigi (3.10.0-2) UNRELEASED; urgency=medium
+aprsdigi (3.10.0-2) unstable; urgency=medium
 
   * Binary architecture changed to linux-any. This software depends on the
     Linux kernel's AX.25 stack which is not available with other kernels.
 
- -- Iain R. Learmonth <irl@fsfe.org>  Tue, 07 Jul 2015 00:13:10 +0100
+ -- Iain R. Learmonth <irl@fsfe.org>  Tue, 07 Jul 2015 00:14:11 +0100
 
 aprsdigi (3.10.0-1) unstable; urgency=medium
 
