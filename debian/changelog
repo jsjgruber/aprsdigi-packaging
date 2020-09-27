@@ -1,3 +1,11 @@
+aprsdigi (3.10.0-3) UNRELEASED; urgency=medium
+
+  * debian/control:
+    - Fix obsolete Vcs-* fields.
+    - Remove some trailing whitespace
+
+ -- Chris Danis <cdanis@gmail.com>  Sun, 27 Sep 2020 11:29:03 -0400
+
 aprsdigi (3.10.0-2) unstable; urgency=medium
 
   * Binary architecture changed to linux-any. This software depends on the
