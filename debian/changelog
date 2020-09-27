@@ -6,8 +6,11 @@ aprsdigi (3.10.0-3) UNRELEASED; urgency=medium
     - Fix obsolete Vcs-* fields.
     - Remove some trailing whitespace
     - Bump Standards-Version to 4.5.0.
+  * Fix some typos in aprsdigi.8
+  * Enable build hardening
+  * Use https in copyright Format
 
- -- Chris Danis <cdanis@gmail.com>  Sun, 27 Sep 2020 11:29:03 -0400
+ -- Chris Danis <cdanis@gmail.com>  Sun, 27 Sep 2020 14:35:18 -0400
 
 aprsdigi (3.10.0-2) unstable; urgency=medium
 
