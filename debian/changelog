@@ -1,5 +1,6 @@
 aprsdigi (3.10.0-3) UNRELEASED; urgency=medium
 
+  * Upgrade debhelper-compat to 13.
   * debian/control:
     - Fix obsolete Vcs-* fields.
     - Remove some trailing whitespace

@@ -4,9 +4,8 @@ Uploaders: Iain R. Learmonth <irl@fsfe.org>
 Section: hamradio
 Priority: optional
 Build-Depends: libax25-dev,
-               debhelper (>= 9),
+               debhelper-compat (= 13),
                man2html-base,
-               dh-autoreconf,
                groff
 Standards-Version: 3.9.6
 Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/aprsdigi
