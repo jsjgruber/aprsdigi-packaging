@@ -1,0 +1,25 @@
+Description: fix some typos in aprsdigi.8 manpage
+Author: Chris Danis <cdanis@gmail.com>
+Last-Update: 2020-09-27
+Forwarded: https://github.com/n2ygk/aprsdigi/pull/9
+
+--- a/aprsdigi.8
++++ b/aprsdigi.8
+@@ -281,7 +281,7 @@ callsign, an empty digipeater path to in
+ the APRS digipeater should repeat the packet after filling in
+ an appropriate digipeater path.  For example, a packet sent to
+ \(lqT1QS4W-3\(rq
+-would be repeated with a modifed destination of \(lqAPRS VIA WIDE3-3\(rq
++would be repeated with a modified destination of \(lqAPRS VIA WIDE3-3\(rq
+ (in a network that supports WIDEn-n flooding).
+ A packet sent to \(lqAPRS-11\(rq would be repeated to the West unproto
+ path, as defined with the
+@@ -544,7 +544,7 @@ This code has most recently been tested
+ under Red Hat Fedora Core 1.
+ The command line syntax is ugly and will eventually be replaced by a 
+ configuration file. 
+-Short options are deprecated and will dissappear in a future release.
++Short options are deprecated and will disappear in a future release.
+ Please use long options.
+ .PP
+ .SH FILES

@@ -1,16 +1,15 @@
 Source: aprsdigi
-Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org> 
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
 Uploaders: Iain R. Learmonth <irl@fsfe.org>
 Section: hamradio
 Priority: optional
 Build-Depends: libax25-dev,
-               debhelper (>= 9),
+               debhelper-compat (= 13),
                man2html-base,
-               dh-autoreconf,
                groff
-Standards-Version: 3.9.6
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-hamradio/aprsdigi.git
-Vcs-Git: http://anonscm.debian.org/git/pkg-hamradio/aprsdigi.git
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/debian-hamradio-team/aprsdigi
+Vcs-Git: https://salsa.debian.org/debian-hamradio-team/aprsdigi.git
 Homepage: https://github.com/n2ygk/aprsdigi/
 
 Package: aprsdigi
@@ -27,4 +26,4 @@ Description: digipeater for APRS
  on one or more radio interfaces (ports) and repeat those packets -- with
  several possible modifications -- on the same or other interfaces. Aprsdigi can
  also use the Internet to tunnel connections among other APRS digipeaters and
- nodes using IPv4 or IPv6 UDP unicast or multicast. 
+ nodes using IPv4 or IPv6 UDP unicast or multicast.

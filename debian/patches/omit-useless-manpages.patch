@@ -1,0 +1,20 @@
+Description: Omit manpages for fiforead/fifowrite
+Author: Chris Danis <cdanis@gmail.com>
+Last-Update: 2020-09-27
+Forwarded: no
+
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -13,8 +13,10 @@ testmcast_SOURCES = testmcast.c
+ fiforead_SOURCES = fiforead.c
+ fifowrite_SOURCES = fifowrite.c
+ libaprs_a_SOURCES = mic_e.c mic_e.h libax25ext.c libax25ext.h
+-man_MANS = aprsdigi.8 aprsmon.8 fiforead.8 fifowrite.8
+-HTMLS = aprsdigi.html aprsmon.html fiforead.html fifowrite.html
++man_MANS = aprsdigi.8 aprsmon.8
++noinst_MANS =  fiforead.8 fifowrite.8
++HTMLS = aprsdigi.html aprsmon.html
++noinst_HTMLS = fiforead.html fifowrite.html  # HTMLS isn't a real automake primary name; this is convention, not meaning
+ noinst_SCRIPTS = $(HTMLS) aprsdigi.spec aprsdigi.init aprsdigi.service aprsbeacon.service aprsdigi.logrotate missing depcomp mkinstalldirs Vagrantfile bootstrap-aprsdev.sh 
+ DOCS = aprsdigi.lsm parse_cooked_ax25.pdf parse_cooked_ax25.fig examples/README.examples examples/aprsdigi.conf examples/axports examples/aprsdigi-fc17.ks BUILD.md README.md 
+ EXTRA_DIST= $(MANS) $(SCRIPTS) $(DOCS)
