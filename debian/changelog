@@ -1,4 +1,4 @@
-aprsdigi (3.10.0-3) UNRELEASED; urgency=medium
+aprsdigi (3.10.0-3) unstable; urgency=medium
 
   * Upgrade debhelper-compat to 13.
   * Omit fiforead/fifowrite manpages, as we don't ship those binaries.
@@ -9,8 +9,9 @@ aprsdigi (3.10.0-3) UNRELEASED; urgency=medium
   * Fix some typos in aprsdigi.8
   * Enable build hardening
   * Use https in copyright Format
+  * Add self to Uploaders (closes: #970363).
 
- -- Chris Danis <cdanis@gmail.com>  Sun, 27 Sep 2020 14:35:18 -0400
+ -- Chris Danis <cdanis@gmail.com>  Tue, 29 Sep 2020 23:50:43 -0400
 
 aprsdigi (3.10.0-2) unstable; urgency=medium
 
