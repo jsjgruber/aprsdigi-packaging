@@ -1,5 +1,6 @@
 aprsdigi (3.10.0-3) unstable; urgency=medium
 
+  [ Chris Danis ]
   * Upgrade debhelper-compat to 13.
   * Omit fiforead/fifowrite manpages, as we don't ship those binaries.
   * debian/control:
@@ -10,6 +11,9 @@ aprsdigi (3.10.0-3) unstable; urgency=medium
   * Enable build hardening
   * Use https in copyright Format
   * Add self to Uploaders (closes: #970363).
+
+  [ Christoph Berg ]
+  * Remove *.html on clean to allow building twice.
 
  -- Chris Danis <cdanis@gmail.com>  Tue, 29 Sep 2020 23:50:43 -0400
 
