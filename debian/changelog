@@ -1,3 +1,9 @@
+aprsdigi (3.10.0-4) UNRELEASED; urgency=medium
+
+  * Trim trailing whitespace.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Mon, 06 Sep 2021 05:04:51 -0000
+
 aprsdigi (3.10.0-3) unstable; urgency=medium
 
   [ Chris Danis ]
@@ -136,4 +142,3 @@ aprsdigi (2.0-0pre3.1) unstable; urgency=low
   * Initial upload
 
  -- Hamish Moffatt <hamish@debian.org>  Thu, 13 Apr 2000 21:42:00 +1000
-
