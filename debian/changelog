@@ -4,6 +4,8 @@ aprsdigi (3.10.0-4) UNRELEASED; urgency=medium
   * Update watch file format version to 4.
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
     Repository-Browse.
+  * Update pattern for GitHub archive URLs from /<org>/<repo>/tags
+    page/<org>/<repo>/archive/<tag> -> /<org>/<repo>/archive/refs/tags/<tag>.
 
  -- Debian Janitor <janitor@jelmer.uk>  Mon, 06 Sep 2021 05:04:51 -0000
 
