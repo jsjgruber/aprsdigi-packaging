@@ -1,5 +1,8 @@
-aprsdigi (3.10.0-4) UNRELEASED; urgency=medium
+aprsdigi (3.10.0-4) unstable; urgency=medium
 
+  * Team upload.
+
+  [ Debian Janitor ]
   * Trim trailing whitespace.
   * Update watch file format version to 4.
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
@@ -8,7 +11,7 @@ aprsdigi (3.10.0-4) UNRELEASED; urgency=medium
     page/<org>/<repo>/archive/<tag> -> /<org>/<repo>/archive/refs/tags/<tag>.
   * Update standards version to 4.5.1, no changes needed.
 
- -- Debian Janitor <janitor@jelmer.uk>  Mon, 06 Sep 2021 05:04:51 -0000
+ -- Christoph Berg <myon@debian.org>  Wed, 05 Jan 2022 11:19:47 +0100
 
 aprsdigi (3.10.0-3) unstable; urgency=medium
 
